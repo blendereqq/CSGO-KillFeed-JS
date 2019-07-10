@@ -1,0 +1,60 @@
+html,body {
+	background:#3e3c3c;
+}
+.multipoint {
+	display:none;
+}
+.multipoint#point-8 {
+	display:block;
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translateX(-50%) translateY(-50%);
+}
+.multipoint#point-8>img {
+	opacity:0.5;
+}
+.kill-feed {
+	position:absolute;
+	top:20px;
+	right:20px;
+}
+.kill-feed>div {
+	padding:3px 6px 3px 6px;
+	margin:0;
+	display:inline-block;
+	float:right;
+	clear:both;
+	border:2px #800000 solid;
+	line-height:18px;
+	font-size:15px;
+	font-weight:normal;
+	text-decoration:none;
+	text-align:right;
+	border-radius:4px;
+	background:rgba(0,0,0,0.75);
+	margin-bottom:6px;
+}
+.kill-feed div span {
+	vertical-align:middle;
+}
+.kill-feed div span.weapons>img {
+	border:none;
+	outline:none;
+	vertical-align:middle;
+	margin:0px 3px;
+}
+.kill-feed div>span.player {
+	font-family: 'Rajdhani', sans-serif;
+	font-size:16px;
+	font-weight:bold;
+	margin:0 2px;
+}
+.kill-feed div>span.player.ct {
+	color:#4F9EDE;
+	padding-left:2px;
+}
+.kill-feed div>span.player.t {
+	color:#C7A247;
+	padding-right:4px;
+}
