@@ -1,5 +1,5 @@
 $(function() {
-    var tKillNames = ["BlendeR", "BLDR" , "blendereqq" , "blenderoo"];//you can add or remove here more "teammates"
+    var tKillNames = ["BlendeR"];//you can add or remove here more "teammates"
     var ctKillNames = ["void cAimbot::DrawFov( int iIndex )", "you", "can", "add", "more", "here"]; //you can add here more "enemies"
     var weapons = ["ssg", "ak47", "deagle", "awp" /*, "g3sg1", "m4a4"*/]; //you can add or remove here more images of weapons here
     var $killFeedContainer = $('.kill-feed');
