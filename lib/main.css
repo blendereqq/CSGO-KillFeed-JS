@@ -1,5 +1,6 @@
 html,body {
-	background:#3e3c3c;
+	/* background:#3e3c3c; */
+	background:transparent;
 }
 .multipoint {
 	display:none;
@@ -17,22 +18,22 @@ html,body {
 .kill-feed {
 	position:absolute;
 	top:20px;
-	right:20px;
+	left:20px;
 }
 .kill-feed>div {
 	padding:3px 6px 3px 6px;
 	margin:0;
 	display:inline-block;
-	float:right;
+	float:left;
 	clear:both;
-	border:2px #800000 solid;
+	border:2px #32302827 solid;
 	line-height:18px;
 	font-size:15px;
 	font-weight:normal;
 	text-decoration:none;
-	text-align:right;
+	text-align:left;
 	border-radius:4px;
-	background:rgba(0,0,0,0.75);
+	background:rgba(0,0,0,0.5);
 	margin-bottom:6px;
 }
 .kill-feed div span {
@@ -50,11 +51,13 @@ html,body {
 	font-weight:bold;
 	margin:0 2px;
 }
-.kill-feed div>span.player.ct {
-	color:#4F9EDE;
+.kill-feed div>span.player.killer {
+	/* color:#4F9EDE; */
+	color: #72cb72;
 	padding-left:2px;
 }
-.kill-feed div>span.player.t {
-	color:#C7A247;
+.kill-feed div>span.player.victim {
+	/* color:#C7A247; */
+	color: #e03232;
 	padding-right:4px;
 }
